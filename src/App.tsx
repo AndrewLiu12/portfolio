@@ -6,6 +6,7 @@ import Projects from './Projects/Projects';
 import BookReviews from './BookReviews/BookReviews';
 import Skills from './Skills/Skills';
 import Education from './Education/Education';
+import Socials from './Socials/Socials';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BookReviews />
       <Skills />
       <Education />
+      <Socials />
     </div>
   );
 }
