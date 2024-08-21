@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Deploying Changes
+
+To get the changes to apply, you have to run 
+
+### `npm run deploy`
+
+Note: this does not push changes to branch, you have to commit them and then push on VS Code and then you can run this command
