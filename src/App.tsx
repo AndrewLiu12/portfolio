@@ -10,7 +10,7 @@ import Socials from './Socials/Socials';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <NavBar />
       <Intro />
       <Experiences />

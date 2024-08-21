@@ -2,7 +2,7 @@ import './Intro.css'
 
 export default function Intro() {
     return (
-        <section className="intro">
+        <section id='intro' className="intro">
             <div>
                 <p>
                     <span>

@@ -1,27 +1,52 @@
 /* Add a black background color to the top navigation */
 .topnav {
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -5px;
+    z-index: 2;
     background-color: #333;
     overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
-  
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+
+.nav__container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
-  
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+
+.nav__container__actions {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding-left: 50px;
+    flex: 1;
 }
-  
+
 /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
+.active {
     color: white;
+    font-weight: bold;
+}
+
+.mySections {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 0;
+}
+
+.mySection {
+    cursor: pointer;
+}
+
+.mySection:hover {
+    text-decoration: underline;
 }
