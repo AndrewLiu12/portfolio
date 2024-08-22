@@ -10,10 +10,10 @@ export default function Socials() {
                 <a href="mailto:liua@bu.edu">
                     <p>Email</p>
                 </a>
-                <a href="https://github.com/AndrewLiu12">
+                <a href="https://github.com/AndrewLiu12" target="_blank" rel="noreferrer">
                     <p>Github</p>
                 </a>
-                <a href="https://linkedin.com/in/andrew-liu-19b616175">
+                <a href="https://linkedin.com/in/andrew-liu-19b616175" target="_blank" rel="noreferrer">
                     <p>LinkedIn</p>
                 </a>
             </div>

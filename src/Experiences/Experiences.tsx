@@ -9,7 +9,9 @@ export default function Experiences() {
                         <h1>Experiences</h1>
                         <div className="cargurus">
                             <p>Jun 2022 - Present</p>
-                            <p>Software Engineer - CarGurus</p>
+                            <p>Software Engineer -&nbsp;
+                                <a href='https://www.cargurus.com/' target="_blank" rel="noreferrer">CarGurus</a>
+                            </p>
                             <ul>
                                 <li>
                                     Cooperated with multiple teams to produce an data insights tool that uses machine learning to help 100s of dealers know
